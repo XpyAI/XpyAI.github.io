@@ -10,7 +10,7 @@ As of our [last update](https://xpyai.github.io/2025-01-15/deployment-pipelines-
 Ideally, we’d be able to deploy these artifacts, flexibly, to devices in the field. For this reason, we built out a way to download the output artifacts from our pipelines over the air using ESP32-S3 microcontrollers.
 
 # Pushing Model Changes to ESP-32 Microcontrollers
-We approached this by using an ESP-32’s MAC address to reach out to a Spring Boot microservice endpoint that returns the assigned model to this specific device. The ESP-32 polls for model updates on an interval and only downloads the model’s .pte file if that file has not already been downloaded. We set up our jenkins pipelines to upload our preprocessed model artifacts to the Spring Boot microservice and voila! 
+We approached this by using an ESP-32’s MAC address to reach out to a Spring Boot microservice endpoint that returns the assigned model for this specific device. The ESP-32 polls for model updates on an interval and only downloads the model’s .pte file if that file has not already been downloaded. We set up our jenkins pipelines to upload our preprocessed model artifacts to the Spring Boot microservice and voila! 
 
 <div class="iframe-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/r6csqJ1aWiM?si=XxIfBg2YQ0qOBAty" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
