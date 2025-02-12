@@ -24,4 +24,4 @@ We approached this by using an ESP-32’s MAC address to reach out to a Spring B
 # Next Steps
 At this point, we have deployment pipelines that pick up changes to a model, export it, and upload to a Spring Boot microservice. We also have microcontrollers picking up these models and downloading them to the device. The next step for flexible, edge ML deployment is the runtime infrastructure for running the downloaded models on the devices!
 
-Feel free to reach out to us and let us know what you think! Our emails are [emmar.goodwill@gmail.com](mailto:emmar.goodwill@gmail.com) and [jamesgoodwill@mac.com](mailto:jamesgoodwill@mac.com).
+Feel free to reach out to us and let us know what you think! Our emails are [emma@xpyai.com](mailto:emma@xpyai.com) and [james@xpyai.com](mailto:james@xpyai.com).

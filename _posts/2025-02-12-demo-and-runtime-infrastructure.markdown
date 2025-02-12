@@ -28,4 +28,4 @@ Now we have:
 
 Our next steps are integrating these three steps and clean up work. There will be updates to come! 
 
-Feel free to reach out to us and let us know what you think! Our emails are [emmar.goodwill@gmail.com](mailto:emmar.goodwill@gmail.com) and [jamesgoodwill@mac.com](mailto:jamesgoodwill@mac.com).
+Feel free to reach out to us and let us know what you think! Our emails are [emma@xpyai.com](mailto:emma@xpyai.com) and [james@xpyai.com](mailto:james@xpyai.com).
