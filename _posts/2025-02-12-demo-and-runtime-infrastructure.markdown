@@ -2,7 +2,6 @@
 layout: post
 title:  "Demo and Model Runtime Infrastructure on ESP32"
 date:   2025-02-12 12:43:53 -0600
-categories: runtime
 ---
 
 In our [last update](https://xpyai.github.io/2025-02-03/over-the-air-microcontroller-model-updates), we stood up Spring Boot microservices that our ESP32-S3 microcontrollers reach out to for model updates before downloading the new model. This sets us up nicely for flexible deploys of PyTorch models, and our next step is to implement the model runtime infrastructure to execute the models themselves!
@@ -27,5 +26,3 @@ Now we have:
 3. The ESP32-S3 microcontrollers running a deployed model with some predefined inputs.
 
 Our next steps are integrating these three steps and clean up work. There will be updates to come! 
-
-Feel free to reach out to us and let us know what you think! Our emails are [emma@xpyai.com](mailto:emma@xpyai.com) and [james@xpyai.com](mailto:james@xpyai.com).
