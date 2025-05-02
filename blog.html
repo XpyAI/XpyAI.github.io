@@ -1,0 +1,23 @@
+---
+layout: default
+title: Blog - Xpy AI
+---
+
+<main class="container">
+    <div class="content">
+        <h1 class="title">Blog</h1>
+        <p class="tagline">Latest Updates and Insights</p>
+        <div class="blog-grid">
+            {% for post in site.posts %}
+            <article class="post-card">
+                <div class="post-card-content">
+                    <h2 class="post-title">{{ post.title }}</h2>
+                    <div class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</div>
+                    <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+                    <a href="{{ post.url }}" class="read-more">Read More →</a>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+</main>

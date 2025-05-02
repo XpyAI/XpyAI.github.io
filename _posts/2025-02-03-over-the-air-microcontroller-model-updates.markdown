@@ -2,7 +2,6 @@
 layout: post
 title:  "Over the Air Microcontroller Model Updates"
 date:   2025-02-03 15:43:53 -0600
-categories: deployment piplines
 ---
 
 As of our [last update](https://xpyai.github.io/2025-01-15/deployment-pipelines-for-edge-machine-learning), we have already created pipelines that track a github repository, pick up PyTorch model changes, and export a model to an edge-device compatible format. That left us with a crucial question: what do we do next with the output artifacts of our pipelines? 
@@ -23,5 +22,3 @@ We approached this by using an ESP-32’s MAC address to reach out to a Spring B
 
 # Next Steps
 At this point, we have deployment pipelines that pick up changes to a model, export it, and upload to a Spring Boot microservice. We also have microcontrollers picking up these models and downloading them to the device. The next step for flexible, edge ML deployment is the runtime infrastructure for running the downloaded models on the devices!
-
-Feel free to reach out to us and let us know what you think! Our emails are [emma@xpyai.com](mailto:emma@xpyai.com) and [james@xpyai.com](mailto:james@xpyai.com).

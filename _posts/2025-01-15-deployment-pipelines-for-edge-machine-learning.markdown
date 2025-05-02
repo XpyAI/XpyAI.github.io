@@ -2,7 +2,6 @@
 layout: post
 title:  "Deployment Pipelines for Edge Machine Learning"
 date:   2025-01-15 15:43:53 -0600
-categories: deployment piplines
 ---
 
 Machine learning at the edge is steadily becoming more appealing for fast, secure, and reliable intelligence. At the onset of a robotics and IOT revolution, developers are wanting machine learning that is not dependent on some far-off server that brings with it the pain of rate/capacity limitations, lack of data security, and connectivity issues in the field.
@@ -39,5 +38,3 @@ With this tooling, we hope that developers can expedite the process of going fro
 
 # Next Steps
 Next up, we’re going to deposit the .pte file artifacts into a shared directory and deploy these artifacts to some microcontrollers over the air! This should close the hypothetical circuit from model development to model deployment.
-
-Feel free to reach out to us and let us know what you think! Our emails are [emma@xpyai.com](mailto:emma@xpyai.com) and [james@xpyai.com](mailto:james@xpyai.com).
