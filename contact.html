@@ -1,56 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Xpy AI</title>
-    <link rel="stylesheet" href="/styles.css">
-    <base href="/">
-</head>
-<body>
-    <nav class="navbar">
-        <div class="navbar-container">
-            <div class="navbar-brand">
-                <a href="/" class="nav-logo">
-                    <img src="/assets/images/xpy_ai_logo_black_background_cropped.jpg" alt="Xpy AI Logo" class="nav-logo-img">
-                    <span>Xpy AI</span>
-                </a>
-            </div>
-            <div class="navbar-links">
-                <a href="/blog" class="nav-link">Blog</a>
-                <a href="/contact" class="nav-link">Contact Us</a>
-            </div>
+---
+layout: default
+title: Contact - Xpy AI
+---
+
+<main class="container">
+    <div class="content">
+        <h1 class="title">Contact Us</h1>
+        <p class="tagline">Got questions about Xpy AI or would like to chat about robot learning? We'd love to hear from you.</p>
+        <div class="contact-section">
+            <form action="https://formsubmit.co/emma@xpyai.com" method="POST" class="contact-form">
+                <input type="hidden" name="_cc" value="james@xpyai.com">
+                <input type="hidden" name="_subject" value="New Contact Form Submission - Xpy AI">
+                <input type="hidden" name="_next" value="https://xpyai.github.io/thank-you">
+                
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
         </div>
-    </nav>
-    <main class="container">
-        <div class="content">
-            <h1 class="title">Contact Us</h1>
-            <p class="tagline">Got questions about Xpy AI or would like to chat about robot learning? We'd love to hear from you.</p>
-            <div class="contact-section">
-                <form action="https://formsubmit.co/emma@xpyai.com" method="POST" class="contact-form">
-                    <input type="hidden" name="_cc" value="james@xpyai.com">
-                    <input type="hidden" name="_subject" value="New Contact Form Submission - Xpy AI">
-                    <input type="hidden" name="_next" value="https://xpyai.github.io/thank-you">
-                    
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" rows="5" required></textarea>
-                    </div>
-                    
-                    <button type="submit" class="submit-button">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </main>
-</body>
-</html>
+    </div>
+</main>
