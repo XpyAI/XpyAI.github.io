@@ -4,7 +4,7 @@ title:  "Robot Learning MLOps Suite"
 date:   2025-04-30 00:43:53 -0600
 ---
 
-Deep learning has become essential for robots to operate and perform complex tasks in unfamiliar or dynamic environments. However, infrastructure and tooling for robot learning, specifically, is largely insufficient–especially for integrated testing and evaluation of model performance in real-world, integrated robot testing. To solve this problem, we're working on an MLOps Suite for robot learning. You can think of it as the Weights and Biases of robot learning. 
+Deep learning has become essential for robots to operate and perform complex tasks in unfamiliar or dynamic environments. However, infrastructure and tooling for robot learning is largely insufficient–especially for integrated testing and evaluation of model performance in the real-world. To solve this problem, we're working on an MLOps Suite for robot learning. You can think of it as the Weights and Biases of robot learning. 
 
 # Demo Video
 
